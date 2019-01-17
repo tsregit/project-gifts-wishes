@@ -17,7 +17,8 @@
     "react-scripts": "2.1.3",
     "redux-form": "^8.1.0",
     "redux-recompose": "^2.1.0",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "webpay-nodejs": "^1.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
