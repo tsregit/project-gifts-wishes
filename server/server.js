@@ -5,13 +5,14 @@ const express = require('express')
 const mongoose = require('mongoose');
 const app = express()
 const bodyParser = require('body-parser')
+const helmet = require('helmet')
 const path = require('path');
 
 // parse application/x-www-form-urlencoded
 //cada use es una MDW que siempre pasa por estas lineas
 
 app.use(bodyParser.urlencoded({ extended: false }));
-
+// app.use(helmet())
 app.use(require('./routes/index'));
 
 // Habilitar la carpeta public
